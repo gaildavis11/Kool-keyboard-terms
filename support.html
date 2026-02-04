@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kool Keyboard — Support</title>
+  <meta name="description" content="Kool Keyboard Support page." />
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; }
+    .container { max-width: 900px; margin: 0 auto; padding: 28px 18px 60px; }
+    header { padding: 18px 0 6px; }
+    h1 { font-size: 1.8rem; margin: 0 0 6px; }
+    .muted { opacity: .75; margin: 0; }
+    .card { border: 1px solid rgba(127,127,127,.25); border-radius: 12px; padding: 16px; }
+    h2 { font-size: 1.25rem; margin: 18px 0 10px; }
+    ol { margin: 8px 0 8px 20px; }
+    a { color: inherit; }
+    footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid rgba(127,127,127,.25); font-size: .95rem; opacity: .8; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(127,127,127,.3); font-size: .9rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kool Keyboard — Support</h1>
+      <p class="muted">Help, setup instructions, and contact information.</p>
+      <p class="muted"><span class="pill">Last updated: February 04, 2026</span></p>
+    </header>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:gailydavis@gmail.com">gailydavis@gmail.com</a></p>
+
+      <h2>How to enable Kool Keyboard</h2>
+      <ol>
+        <li>Open <strong>Settings</strong> on your iPhone</li>
+        <li>Go to <strong>General → Keyboard → Keyboards</strong></li>
+        <li>Tap <strong>Add New Keyboard…</strong></li>
+        <li>Select <strong>Kool Keyboard</strong></li>
+        <li>Tap <strong>Kool Keyboard</strong> again to manage settings</li>
+        <li>Open any app and tap the <strong>globe</strong> key to switch keyboards</li>
+      </ol>
+
+      <h2>About “Allow Full Access”</h2>
+      <p>
+        Kool Keyboard does <strong>not</strong> collect what you type. If you choose to enable
+        <strong>Allow Full Access</strong>, it is only used to support optional features (such as improved
+        customization/settings availability). Typed content is never collected or transmitted.
+      </p>
+
+      <h2>Legal</h2>
+      <p>
+        View our <a href="./privacy-terms.html">Privacy Policy &amp; Terms of Use</a>.
+      </p>
+    </div>
+
+    <footer>
+      <p>© <span id="year"></span> Kool Keyboard. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
